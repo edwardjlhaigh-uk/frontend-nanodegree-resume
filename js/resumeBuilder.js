@@ -10,7 +10,7 @@ var bio = {
   contact info : "07341 662673",
   picture url : "#",
   welcome message : "Greetings!",
-  skills : "Javascript, jQuery, HTML5, CSS3"
+  skills : "Javascript, jQuery, HTML5, CSS3",
 }
 
 $("#main").append([bio]);
