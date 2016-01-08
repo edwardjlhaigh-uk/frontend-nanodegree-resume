@@ -7,7 +7,7 @@ $("#header").append([formattedRole]);
 var bio = {
   name : "Edward Haigh",
   role : "Web Developer",
-  contact info : 07341 662673,
+  contact info : "07341 662673",
   picture url : "#",
   welcome message : "Greetings!",
   skills : "Javascript, jQuery, HTML5, CSS3"
