@@ -1,7 +1,5 @@
-$("#main").append(["Edward Haigh"]);
-
 var formattedName = HTMLheaderName.replace("%data%", "Edward Haigh");
-$("#header").prepend([formattedName]);
+$("#header").append([formattedName]);
 
 var formattedRole = HTMLheaderRole.replace("%role%", "Web Developer");
-$("#header").append([formattedRole]);
+$("#header").prepend([formattedRole]);
