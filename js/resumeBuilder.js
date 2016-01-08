@@ -4,7 +4,7 @@ $("#header").append([formattedName]);
 var formattedRole = HTMLheaderRole.replace("%data%", "Web Developer");
 $("#header").append([formattedRole]);
 
-var bio {
+var bio = {
   name : "Edward Haigh",
   role : "Web Developer",
   contact info : "edward@starlinghaigh.com",
