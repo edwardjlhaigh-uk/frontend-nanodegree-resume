@@ -69,4 +69,4 @@ var formattedLocation = HTMLworkLocation.replace("%data%", work.workLocation);
 $("#workExperience").append([formattedLocation]);
 */
 
-$("#main").append(work["Employer"]);
+$("#workExperience").append(work["Employer"]);
