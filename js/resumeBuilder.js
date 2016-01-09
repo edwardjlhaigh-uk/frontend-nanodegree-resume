@@ -11,7 +11,7 @@ var bio = {
     "mobile": "07341 662673",
     "email": "edward@starlinghaigh.com",
     "github": "edwardjlhaigh-uk",
-    "location": "London"
+    "location": "London",
   }
   "welcome message" : "Greetings!",
   "skills" : ["Javascript", "jQuery", "HTML5", "CSS3"],
