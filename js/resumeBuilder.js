@@ -26,16 +26,16 @@ $("#header").append([formattedMobile]);
 var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
 $("#header").append([formattedGithub]);
 
-var formattedEmail = HTMLemail.replace("%data%", {bio.email});
+var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 $("#header").append([formattedGithub]);
 
-var formattedTwitter = HTMLtwitter.replace("%data%", {bio.twitter});
+var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
 $("#header").append([formattedTwitter]);
 
-var formattedLocation = HTMLlocation.replace("%data%", {bio.location});
+var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 $("#header").append([formattedLocation]);
 
-var formattedBlog = HTMLblog.relace("%data%", {bio.blog});
+var formattedBlog = HTMLblog.relace("%data%", bio.blog);
 $("#header").append([formattedBlog]);
 
 var formattedBioPic = HTMLbiopic.replace("%data%", bio.biopic);
