@@ -19,6 +19,20 @@ var bio = {
   "bioPic": "http://imgur.com/Z7MyUlv.jpg"
 };
 
+var work = {
+  "workEmployer": "Apex M-T",
+  "workTitle": "Testing and Training Team",
+  "workDates": "Sept 2014 - Present",
+  "workLocation": "London",
+}
+
+var education = {
+  "schoolName": "Exeter College",
+  "schoolDegree": "Business Management",
+  "schoolDates": "2010 - 2013",
+  "schoolLocation": "Exeter",
+}
+
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
 $("#header").append([formattedWelcomeMsg]);
 
