@@ -27,10 +27,10 @@ var work = {};
 
 
 var education = {};
-  eduction[schoolName] = "Exeter College";
-  education[schoolDegree] = "Business Management";
-  education[schoolDates] = "2010 - 2013";
-  education[schoolLocation] = "Exeter";
+  eduction["schoolName"] = "Exeter College";
+  education["schoolDegree"] = "Business Management";
+  education["schoolDates"] = "2010 - 2013";
+  education["schoolLocation"] = "Exeter";
 
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
 $("#header").append([formattedWelcomeMsg]);
