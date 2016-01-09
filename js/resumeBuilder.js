@@ -12,7 +12,7 @@ var bio = {
     "email": "edward@starlinghaigh.com",
     "twitter": "@edwhai",
     "github": "edwardjlhaigh-uk",
-    "blog": "https://medium.com/@EdwHai ",
+    "linkedin": "uk.linkedin.com/in/edwardjlhaigh",
     "location": "London",
   },
   "welcomeMsg" : "Greetings!",
@@ -35,8 +35,8 @@ $("#header").append([formattedTwitter]);
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 $("#header").append([formattedLocation]);
 
-var formattedBlog = HTMLblog.replace("%data%", bio.blog);
-$("#header").append([formattedBlog]);
+var formattedLinkedIn = HTMLblog.replace("%data%", bio.linkedin);
+$("#header").append([formattedLinkedIn]);
 
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").prepend([formattedBioPic]);
