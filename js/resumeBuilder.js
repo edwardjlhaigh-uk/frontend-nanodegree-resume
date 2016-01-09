@@ -23,7 +23,7 @@ var bio = {
 var formattedMobile = HTMLmobile.replace("%data%", bio.mobile);
 $("#header").append([formattedMobile]);
 
-var formattedGithub = HTMLgithub.replace("%data%", {bio.contacts.[github]});
+var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
 $("#header").append([formattedGithub]);
 
 var formattedEmail = HTMLemail.replace("%data%", {bio.email});
