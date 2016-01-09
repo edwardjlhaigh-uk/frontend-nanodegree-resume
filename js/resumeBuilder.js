@@ -14,7 +14,7 @@ var bio = {
     "github": "edwardjlhaigh-uk",
     "location": "London",
   },
-  "welcomeMsg" : "Greetings!",
+  "welcomeMsg" : "Hello world!",
   "skills" : ["Javascript", " jQuery", " HTML5", " CSS3"],
   "bioPic": "http://imgur.com/Z7MyUlv.jpg"
 };
