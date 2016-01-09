@@ -27,7 +27,7 @@ var work = {};
 
 
 var education = {};
-  eduction["schoolName"] = "Exeter College";
+  education["schoolName"] = "Exeter College";
   education["schoolDegree"] = "Business Management";
   education["schoolDates"] = "2010 - 2013";
   education["schoolLocation"] = "Exeter";
