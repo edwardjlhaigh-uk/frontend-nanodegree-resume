@@ -68,6 +68,14 @@ var formattedLocation = HTMLworkLocation.replace("%data%", work.workLocation);
 $("#workExperience").append([formattedLocation]);
 */
 
-$("#workExperience").append(work["Employer"]);
+var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work["Employer"]);
+
+$("#workExperience").append(work["formattedWorkExperience"]);
+$("#workExperience").append(work["Title"]);
+$("#workExperience").append(work["Dates"]);
+$("#workExperience").append(work["Location"]);
 
 $("education").append(education.schoolName);
+$("education").append(education.schoolDegree);
+$("education").append(education.schoolDates);
+$("education").append(education.schoolLocation);
