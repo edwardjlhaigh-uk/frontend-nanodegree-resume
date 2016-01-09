@@ -8,7 +8,7 @@ var bio = {
   "name" : "Edward Haigh",
   "role" : "Web Developer",
   "contacts" : {
-    "mobile": 07341 662673,
+    "mobile": "07341 662673",
     "email": "edward@starlinghaigh.com",
     "twitter": "#",
     "github": "edwardjlhaigh-uk",
@@ -20,7 +20,7 @@ var bio = {
   "bioPic": "images/fry.jpg"
 };
 
-var formattedMobile = HTMLmobile.replace("%data%", bio.mobile);
+var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 $("#header").append([formattedMobile]);
 
 var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
