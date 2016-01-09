@@ -38,7 +38,7 @@ $("#header").append([formattedLocation]);
 var formattedBlog = HTMLblog.replace("%data%", bio.blog);
 $("#header").append([formattedBlog]);
 
-var formattedBioPic = HTMLbiopic.replace("%data%", bio.biopic);
+var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
 $("#header").append([formattedBioPic]);
 
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
