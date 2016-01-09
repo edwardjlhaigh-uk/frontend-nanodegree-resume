@@ -19,6 +19,9 @@ var bio = {
   "bioPic": "http://imgur.com/Z7MyUlv.jpg"
 };
 
+var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
+$("#header").append([formattedWelcomeMsg]);
+
 var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 $("#header").append([formattedMobile]);
 
@@ -36,9 +39,6 @@ $("#header").append([formattedLocation]);
 
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").prepend([formattedBioPic]);
-
-var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
-$("#header").append([formattedWelcomeMsg]);
 
 var formattedSkills = HTMLskills.replace("%data%", bio.skills);
 $("#header").append([formattedSkills]);
