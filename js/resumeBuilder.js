@@ -43,5 +43,3 @@ $("#header").append([formattedLocation]);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").prepend([formattedBioPic]);
 
-var formattedSkills = HTMLskills.replace("%data%", bio.skills);
-$("#header").append([formattedSkills]);
