@@ -29,7 +29,7 @@ var work = {
   "Employer": "Nexus Open Systems",
   "Title": "Systems Technician",
   "Dates": "Febuary 2014 - August 2014"
-  "Location": "Exeter"  }
+  "Location": "Exeter"  },
 };
 
 var education = {
