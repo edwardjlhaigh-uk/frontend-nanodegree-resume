@@ -15,7 +15,7 @@ var bio = {
     "blog": "#",
     "location": "London",
   },
-  "welcome message" : "Greetings!",
+  "welcomeMsg" : "Greetings!",
   "skills" : ["Javascript", "jQuery", "HTML5", "CSS3"],
   "bioPic": "images/fry.jpg"
 };
@@ -40,3 +40,9 @@ $("#header").append([formattedBlog]);
 
 var formattedBioPic = HTMLbiopic.replace("%data%", bio.biopic);
 $("#header").append([formattedBioPic]);
+
+var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
+$("#header").append([formattedWelcomeMsg]);
+
+var formattedSkills = HTMLskills.replace("%data%", bio.skills);
+$("#header").append([formattedSkills]);
