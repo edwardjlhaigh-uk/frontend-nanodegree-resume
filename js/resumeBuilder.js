@@ -20,10 +20,10 @@ var bio = {
 };
 
 var work = {
-  "work.Employer": "Apex M-T",
-  "work.Title": "Testing and Training Team",
-  "work.Dates": "Sept 2014 - Present",
-  "work.Location": "London"
+  "Employer": "Apex M-T",
+  "Title": "Testing and Training Team",
+  "Dates": "Sept 2014 - Present",
+  "Location": "London"
 };
 
 var education = {
