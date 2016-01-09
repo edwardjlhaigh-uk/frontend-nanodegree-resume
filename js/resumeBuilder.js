@@ -12,7 +12,7 @@ var bio = {
     "email": "edward@starlinghaigh.com",
     "twitter": "@edwhai",
     "github": "edwardjlhaigh-uk",
-    "blog": "https://medium.com/@EdwHai",
+    "blog": "https://medium.com/@EdwHai ",
     "location": "London",
   },
   "welcomeMsg" : "Greetings!",
