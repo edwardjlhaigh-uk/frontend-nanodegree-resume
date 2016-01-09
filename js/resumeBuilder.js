@@ -16,7 +16,7 @@ var bio = {
     "location": "London",
   },
   "welcomeMsg" : "Greetings!",
-  "skills" : ["Javascript, ", "jQuery, ", "HTML5, ", "CSS3"],
+  "skills" : ["Javascript", " jQuery", " HTML5", " CSS3"],
   "bioPic": "images/fry.jpg"
 };
 
