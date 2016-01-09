@@ -22,6 +22,9 @@ var bio = {
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
 $("#header").append([formattedWelcomeMsg]);
 
+var formattedSkills = HTMLskills.replace("%data%", bio.skills);
+$("#header").append([formattedSkills]);
+
 var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 $("#header").append([formattedMobile]);
 
