@@ -23,20 +23,20 @@ var bio = {
 var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 $("#header").append([formattedMobile]);
 
-var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
-$("#header").append([formattedGithub]);
-
 var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 $("#header").append([formattedEmail]);
+
+var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+$("#header").append([formattedGithub]);
 
 var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
 $("#header").append([formattedTwitter]);
 
-var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
-$("#header").append([formattedLocation]);
-
 var formattedLinkedIn = HTMLblog.replace("%data%", bio.linkedin);
 $("#header").append([formattedLinkedIn]);
+
+var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+$("#header").append([formattedLocation]);
 
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").prepend([formattedBioPic]);
