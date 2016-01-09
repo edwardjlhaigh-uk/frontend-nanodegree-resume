@@ -22,4 +22,4 @@ var formattedMobile = HTMLmobile.replace("%data%", bio.mobile);
 $("#header").append([formattedMobile]);
 
 var formattedBioPic = HTMLbiopic.replace("%data%", bio.biopic);
-$("#header").prepend([formattedBioPic]);
+$("#header").append([formattedBioPic]);
