@@ -27,7 +27,7 @@ var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
 $("#header").append([formattedGithub]);
 
 var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
-$("#header").append([formattedGithub]);
+$("#header").append([formattedEmail]);
 
 var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
 $("#header").append([formattedTwitter]);
