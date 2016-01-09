@@ -22,14 +22,14 @@ var bio = {
 var work = {
   "Employer": "Apex M-T",
   "Title": "Testing and Training Team",
-  "Dates": "Sept 2014 - Present",
+  "Dates": "Sept 2014 - Present ",
   "Location": "London"
 };
 
 var education = {
   "schoolName": "Exeter College",
   "schoolDegree": "Business Management",
-  "schoolDates": "2010 - 2013",
+  "schoolDates": "2010 - 2013 ",
   "schoolLocation": "Exeter",
 };
 
