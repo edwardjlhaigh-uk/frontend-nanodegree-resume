@@ -32,7 +32,7 @@ $("#header").append([formattedGithub]);
 var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
 $("#header").append([formattedTwitter]);
 
-var formattedLinkedIn = HTMLblog.replace("%data%", bio.linkedin);
+var formattedLinkedIn = HTMLlinkedIn.replace("%data%", bio.linkedin);
 $("#header").append([formattedLinkedIn]);
 
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
