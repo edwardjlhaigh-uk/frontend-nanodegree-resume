@@ -25,7 +25,6 @@ var work = {};
   work.Dates = "Sept 2014 - Present";
   work.Location = "London";
 
-
 var education = {};
   education["schoolName"] = "Exeter College";
   education["schoolDegree"] = "Business Management";
@@ -70,3 +69,5 @@ $("#workExperience").append([formattedLocation]);
 */
 
 $("#workExperience").append(work["Employer"]);
+
+$("education").append(education.schoolName);
