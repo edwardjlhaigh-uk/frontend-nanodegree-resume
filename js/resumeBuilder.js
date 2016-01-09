@@ -16,6 +16,6 @@ var bio = {
   "welcome message" : "Greetings!",
   "skills" : ["Javascript", "jQuery", "HTML5", "CSS3"],
   "bioPic": "images/fry.jpg"
-}
+};
 
-$("#main").append([bio]);
+$("#header").append([bio]);
