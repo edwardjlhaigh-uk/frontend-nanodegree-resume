@@ -24,7 +24,7 @@ var work = {
   "Employer": "Apex M-T",
   "Title": "Testing and Training Team",
   "Dates": "Sept 2014 - Present ",
-  "Location": "London" }
+  "Location": "London" },
   "nexus": {
   "Employer": "Nexus Open Systems",
   "Title": "Systems Technician",
