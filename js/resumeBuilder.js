@@ -41,13 +41,13 @@ var education = {
     "onlineTitle": "Machine Learning",
     "onlineSchool": "Stanfordx",
     "onlineDates": "January 2016 - April 2016",
-    "onlineURL": "#"
+    "onlineURL": "https://www.coursera.org/learn/machine-learning"
   },
   "introCompSci":{
     "onlineTitle": "Introduction to Computer Science and Programming using Python",
     "onlineSchool": "MITx",
     "onlineDates": "January 2016 - April 2016",
-    "onlineURL": "#"
+    "onlineURL": "https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6"
   },
   "college": {
   "schoolName": "Exeter College",
