@@ -18,4 +18,4 @@ var bio = {
   "bioPic": "images/fry.jpg"
 };
 
-$("#header").append([bio]);
+$("#header").prepend([bio]);
