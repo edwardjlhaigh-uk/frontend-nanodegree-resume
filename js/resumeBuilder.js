@@ -1,8 +1,4 @@
-var formattedName = HTMLheaderName.replace("%data%", "Edward Haigh");
-$("#header").append([formattedName]);
-
-var formattedRole = HTMLheaderRole.replace("%data%", "Web Developer");
-$("#header").append([formattedRole]);
+// Personal Info
 
 var bio = {
   "name" : "Edward Haigh",
@@ -19,6 +15,8 @@ var bio = {
   "bioPic": "http://imgur.com/Z7MyUlv.jpg"
 };
 
+// Work Objects
+
 var work = {
   "apex": {
   "Employer": "Apex M-T",
@@ -29,6 +27,8 @@ var work = {
   "Title": "Systems Technician",
   "Dates": "Febuary 2014 - August 2014" },
 };
+
+// Education Objects (JSON checked)
 
 var education = {
   "javascriptBasics": {
@@ -55,29 +55,30 @@ var education = {
   "schoolDates": "2010 - 2013 " },
 };
 
+// Heading and Contacts
+
+var formattedName = HTMLheaderName.replace("%data%", "Edward Haigh");
+$("#header").append([formattedName]);
+var formattedRole = HTMLheaderRole.replace("%data%", "Web Developer");
+$("#header").append([formattedRole]);
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
 $("#header").append([formattedWelcomeMsg]);
-
 var formattedSkills = HTMLskills.replace("%data%", bio.skills);
 $("#header").append([formattedSkills]);
-
 var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 $("#header").append([formattedMobile]);
-
 var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 $("#header").append([formattedEmail]);
-
 var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
 $("#header").append([formattedGithub]);
-
 var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
 $("#header").append([formattedTwitter]);
-
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 $("#header").append([formattedLocation]);
-
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").prepend([formattedBioPic]);
+
+// Apex
 
 var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.apex.Employer);
 $("#workExperience").append([formattedWorkExperience]);
@@ -86,6 +87,8 @@ $("#workExperience").append([formattedWorkTitle]);
 var formattedWorkDates = HTMLworkDates.replace("%data%", work.apex.Dates);
 $("#workExperience").append([formattedWorkDates]);
 
+// Nexus
+
 var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.nexus.Employer);
 $("#workExperience").append([formattedWorkExperience]);
 var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.nexus.Title);
@@ -93,12 +96,16 @@ $("#workExperience").append([formattedWorkTitle]);
 var formattedWorkDates = HTMLworkDates.replace("%data%", work.nexus.Dates);
 $("#workExperience").append([formattedWorkDates]);
 
+// Exeter College
+
 var formattedSchoolName = HTMLschoolName.replace("%data%", education.college.schoolName);
 $("#education").append([formattedSchoolName]);
 var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.college.schoolDegree);
 $("#education").append([formattedSchoolDegree]);
 var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.college.schoolDates);
 $("#education").append([formattedSchoolDates]);
+
+// Javascript Basics MOOC
 
 var formattedSchoolName = HTMLonlineTitle.replace("%data%", education.javascriptBasics.onlineTitle);
 $("#education").append([formattedSchoolName]);
@@ -109,6 +116,8 @@ $("#education").append([formattedSchoolDates]);
 var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.javascriptBasics.onlineURL);
 $("#education").append([formattedSchoolLocation]);
 
+// Machine Learning MOOC
+
 var formattedSchoolName = HTMLonlineTitle.replace("%data%", education.machineLearning.onlineTitle);
 $("#education").append([formattedSchoolName]);
 var formattedSchoolDegree = HTMLonlineSchool.replace("%data%", education.machineLearning.onlineSchool);
@@ -117,6 +126,8 @@ var formattedSchoolDates = HTMLonlineDates.replace("%data%", education.machineLe
 $("#education").append([formattedSchoolDates]);
 var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.machineLearning.onlineURL);
 $("#education").append([formattedSchoolLocation]);
+
+// Introduction to Comp Sci MOOC
 
 var formattedSchoolName = HTMLonlineTitle.replace("%data%", education.introCompSci.onlineTitle);
 $("#education").append([formattedSchoolName]);
