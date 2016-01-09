@@ -58,7 +58,7 @@ var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").prepend([formattedBioPic]);
 
 var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.workEmployer);
-$("#workExperience").prepend([formattedWorkExperience]);
+$("#workExperience").append([formattedWorkExperience]);
 
 var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.workTitle);
 $("#workExperience").append([formattedWorkTitle]);
