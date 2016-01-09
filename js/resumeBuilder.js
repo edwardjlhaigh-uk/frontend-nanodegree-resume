@@ -12,7 +12,6 @@ var bio = {
     "email": "edward@starlinghaigh.com",
     "twitter": "@edwhai",
     "github": "edwardjlhaigh-uk",
-    "linkedin": "uk.linkedin.com/in/edwardjlhaigh",
     "location": "London",
   },
   "welcomeMsg" : "Greetings!",
@@ -31,9 +30,6 @@ $("#header").append([formattedGithub]);
 
 var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
 $("#header").append([formattedTwitter]);
-
-var formattedLinkedIn = HTMLlinkedIn.replace("%data%", bio.linkedin);
-$("#header").append([formattedLinkedIn]);
 
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 $("#header").append([formattedLocation]);
