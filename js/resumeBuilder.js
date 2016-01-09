@@ -57,16 +57,16 @@ $("#header").append([formattedLocation]);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").prepend([formattedBioPic]);
 
-var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.workEmployer);
+var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.Employer);
 $("#workExperience").append([formattedWorkExperience]);
 
-var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.workTitle);
+var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.Title);
 $("#workExperience").append([formattedWorkTitle]);
 
-var formattedWorkDates = HTMLworkDates.replace("%data%", work.workDates);
+var formattedWorkDates = HTMLworkDates.replace("%data%", work.Dates);
 $("#workExperience").append([formattedWorkDates]);
 
-var formattedLocation = HTMLworkLocation.replace("%data%", work.workLocation);
+var formattedLocation = HTMLworkLocation.replace("%data%", work.Location);
 $("#workExperience").append([formattedLocation]);
 
 var formattedSchoolName = HTMLschoolName.replace("%data%", education.schoolName);
