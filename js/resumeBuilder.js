@@ -20,10 +20,16 @@ var bio = {
 };
 
 var work = {
+  "apex": {
   "Employer": "Apex M-T",
   "Title": "Testing and Training Team",
   "Dates": "Sept 2014 - Present ",
-  "Location": "London"
+  "Location": "London" }
+  "nexus": {
+  "Employer": "Nexus Open Systems",
+  "Title": "Systems Technician",
+  "Dates": "Febuary 2014 - August 2014"
+  "Location": "Exeter"  }
 };
 
 var education = {
@@ -57,16 +63,22 @@ $("#header").append([formattedLocation]);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").prepend([formattedBioPic]);
 
-var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.Employer);
+var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.apex.Employer);
 $("#workExperience").append([formattedWorkExperience]);
-
-var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.Title);
+var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.apex.Title);
 $("#workExperience").append([formattedWorkTitle]);
-
-var formattedWorkDates = HTMLworkDates.replace("%data%", work.Dates);
+var formattedWorkDates = HTMLworkDates.replace("%data%", work.apex.Dates);
 $("#workExperience").append([formattedWorkDates]);
+var formattedLocation = HTMLworkLocation.replace("%data%", work.apex.Location);
+$("#workExperience").append([formattedLocation]);
 
-var formattedLocation = HTMLworkLocation.replace("%data%", work.Location);
+var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.nexus.Employer);
+$("#workExperience").append([formattedWorkExperience]);
+var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.nexus.Title);
+$("#workExperience").append([formattedWorkTitle]);
+var formattedWorkDates = HTMLworkDates.replace("%data%", work.nexus.Dates);
+$("#workExperience").append([formattedWorkDates]);
+var formattedLocation = HTMLworkLocation.replace("%data%", work.nexus.Location);
 $("#workExperience").append([formattedLocation]);
 
 var formattedSchoolName = HTMLschoolName.replace("%data%", education.schoolName);
