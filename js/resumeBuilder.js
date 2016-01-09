@@ -35,7 +35,7 @@ $("#header").append([formattedTwitter]);
 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 $("#header").append([formattedLocation]);
 
-var formattedBlog = HTMLblog.relace("%data%", bio.blog);
+var formattedBlog = HTMLblog.replace("%data%", bio.blog);
 $("#header").append([formattedBlog]);
 
 var formattedBioPic = HTMLbiopic.replace("%data%", bio.biopic);
