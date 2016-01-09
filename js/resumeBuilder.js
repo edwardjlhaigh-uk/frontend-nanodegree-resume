@@ -73,13 +73,13 @@ var formattedSchoolName = HTMLschoolName.replace("%data%", education.schoolName)
 $("#education").append([formattedSchoolName]);
 
 var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schoolDegree);
-$("#education").append([formattedSchoolName]);
+$("#education").append([formattedSchoolDegree]);
 
 var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schoolDates);
-$("#education").append([formattedSchoolName]);
+$("#education").append([formattedSchoolDates]);
 
 var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schoolLocation);
-$("#education").append([formattedSchoolName]);
+$("#education").append([formattedSchoolLocation]);
 
 /*
 var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work["Employer"]);
