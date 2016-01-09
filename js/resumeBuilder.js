@@ -50,7 +50,7 @@ var education = {
     "onlineSchool": "MITx",
     "onlineDates": "January 2016 - April 2016",
     "onlineURL": "#"
-  }
+  },
   "college": {
   "schoolName": "Exeter College",
   "schoolDegree": "Business Management",
