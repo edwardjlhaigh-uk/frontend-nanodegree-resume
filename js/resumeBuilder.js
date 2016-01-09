@@ -19,17 +19,19 @@ var bio = {
   "bioPic": "http://imgur.com/Z7MyUlv.jpg"
 };
 
-var work = {};
-  work.Employer = "Apex M-T";
-  work.Title = "Testing and Training Team";
-  work.Dates = "Sept 2014 - Present";
-  work.Location = "London";
+var work = {
+  "work.Employer": "Apex M-T",
+  "work.Title": "Testing and Training Team",
+  "work.Dates": "Sept 2014 - Present",
+  "work.Location": "London"
+};
 
-var education = {};
-  education["schoolName"] = "Exeter College";
-  education["schoolDegree"] = "Business Management";
-  education["schoolDates"] = "2010 - 2013";
-  education["schoolLocation"] = "Exeter";
+var education = {
+  "schoolName": "Exeter College",
+  "schoolDegree": "Business Management",
+  "schoolDates": "2010 - 2013",
+  "schoolLocation": "Exeter",
+};
 
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
 $("#header").append([formattedWelcomeMsg]);
@@ -55,7 +57,7 @@ $("#header").append([formattedLocation]);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").prepend([formattedBioPic]);
 
-/* var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.workEmployer);
+var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.workEmployer);
 $("#workExperience").prepend([formattedWorkExperience]);
 
 var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.workTitle);
@@ -66,8 +68,20 @@ $("#workExperience").append([formattedWorkDates]);
 
 var formattedLocation = HTMLworkLocation.replace("%data%", work.workLocation);
 $("#workExperience").append([formattedLocation]);
-*/
 
+var formattedSchoolName = HTMLschoolName.replace("%data%", education.schoolName);
+$("#education").append([formattedSchoolName]);
+
+var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schoolDegree);
+$("#education").append([formattedSchoolName]);
+
+var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schoolDates);
+$("#education").append([formattedSchoolName]);
+
+var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schoolLocation);
+$("#education").append([formattedSchoolName]);
+
+/*
 var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work["Employer"]);
 
 $("#workExperience").append(work["formattedWorkExperience"]);
@@ -79,3 +93,4 @@ $("education").append(education.schoolName);
 $("education").append(education.schoolDegree);
 $("education").append(education.schoolDates);
 $("education").append(education.schoolLocation);
+*/
