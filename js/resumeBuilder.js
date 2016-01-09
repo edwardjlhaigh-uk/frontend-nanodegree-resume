@@ -10,7 +10,7 @@ var bio = {
   "contacts" : {
     "mobile": "07341 662673",
     "email": "edward@starlinghaigh.com",
-    "twitter": "#",
+    "twitter": "@edwhai",
     "github": "edwardjlhaigh-uk",
     "blog": "#",
     "location": "London",
