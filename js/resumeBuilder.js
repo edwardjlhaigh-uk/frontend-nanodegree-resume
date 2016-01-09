@@ -33,10 +33,29 @@ var work = {
 };
 
 var education = {
+  "javascriptBasics": {
+    "onlineTitle": "Javascript Basics",
+    "onlineSchool": "Udacity",
+    "onlineDates": "January 2016",
+    "onlineURL": "#"
+  },
+  "machineLearning": {
+    "onlineTitle": "Machine Learning",
+    "onlineSchool": "Stanfordx",
+    "onlineDates": "January 2016 - April 2016",
+    "onlineURL": "#"
+  },
+  "introCompSci":{
+    "onlineTitle": "Introduction to Computer Science and Programming using Python",
+    "onlineSchool": "MITx",
+    "onlineDates": "January 2016 - April 2016",
+    "onlineURL": "#"
+  }
+  "college": {
   "schoolName": "Exeter College",
   "schoolDegree": "Business Management",
   "schoolDates": "2010 - 2013 ",
-  "schoolLocation": "Exeter",
+  "schoolLocation": "Exeter" },
 };
 
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
@@ -81,14 +100,38 @@ $("#workExperience").append([formattedWorkDates]);
 var formattedLocation = HTMLworkLocation.replace("%data%", work.nexus.Location);
 $("#workExperience").append([formattedLocation]);
 
-var formattedSchoolName = HTMLschoolName.replace("%data%", education.schoolName);
+var formattedSchoolName = HTMLschoolName.replace("%data%", education.college.schoolName);
 $("#education").append([formattedSchoolName]);
-
-var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schoolDegree);
+var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.college.schoolDegree);
 $("#education").append([formattedSchoolDegree]);
-
-var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schoolDates);
+var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.college.schoolDates);
 $("#education").append([formattedSchoolDates]);
+var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.college.schoolLocation);
+$("#education").append([formattedSchoolLocation]);
 
-var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schoolLocation);
+var formattedSchoolName = HTMLonlineTitle.replace("%data%", education.javascriptBasics.onlineTitle);
+$("#education").append([formattedSchoolName]);
+var formattedSchoolDegree = HTMLonlineSchool.replace("%data%", education.javascriptBasics.onlineSchool);
+$("#education").append([formattedSchoolDegree]);
+var formattedSchoolDates = HTMLonlineDates.replace("%data%", education.javascriptBasics.onlineDates);
+$("#education").append([formattedSchoolDates]);
+var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.javascriptBasics.onlineURL);
+$("#education").append([formattedSchoolLocation]);
+
+var formattedSchoolName = HTMLonlineTitle.replace("%data%", education.machineLearning.onlineTitle);
+$("#education").append([formattedSchoolName]);
+var formattedSchoolDegree = HTMLonlineSchool.replace("%data%", education.machineLearning.onlineSchool);
+$("#education").append([formattedSchoolDegree]);
+var formattedSchoolDates = HTMLonlineDates.replace("%data%", education.machineLearning.onlineDates);
+$("#education").append([formattedSchoolDates]);
+var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.machineLearning.onlineURL);
+$("#education").append([formattedSchoolLocation]);
+
+var formattedSchoolName = HTMLonlineTitle.replace("%data%", education.introCompSci.onlineTitle);
+$("#education").append([formattedSchoolName]);
+var formattedSchoolDegree = HTMLonlineSchool.replace("%data%", education.introCompSci.onlineSchool);
+$("#education").append([formattedSchoolDegree]);
+var formattedSchoolDates = HTMLonlineDates.replace("%data%", education.introCompSci.onlineDates);
+$("#education").append([formattedSchoolDates]);
+var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.introCompSci.onlineURL);
 $("#education").append([formattedSchoolLocation]);
