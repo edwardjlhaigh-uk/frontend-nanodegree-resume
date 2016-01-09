@@ -17,7 +17,7 @@ var bio = {
   },
   "welcomeMsg" : "Greetings!",
   "skills" : ["Javascript", " jQuery", " HTML5", " CSS3"],
-  "bioPic": "images/fry.jpg"
+  "bioPic": "http://imgur.com/Z7MyUlv"
 };
 
 var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
@@ -38,7 +38,7 @@ $("#header").append([formattedLocation]);
 var formattedBlog = HTMLblog.replace("%data%", bio.blog);
 $("#header").append([formattedBlog]);
 
-var formattedBioPic = HTMLbioPic.replace("%data%", bio.biopic);
+var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
 $("#header").append([formattedBioPic]);
 
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
