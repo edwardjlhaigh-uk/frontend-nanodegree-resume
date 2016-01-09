@@ -17,7 +17,7 @@ var bio = {
   },
   "welcomeMsg" : "Greetings!",
   "skills" : ["Javascript", " jQuery", " HTML5", " CSS3"],
-  "bioPic": "http://imgur.com/Z7MyUlv"
+  "bioPic": "http://imgur.com/Z7MyUlv.jpg"
 };
 
 var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
