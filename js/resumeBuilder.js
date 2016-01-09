@@ -12,7 +12,7 @@ var bio = {
     "email": "edward@starlinghaigh.com",
     "github": "edwardjlhaigh-uk",
     "location": "London",
-  }
+  };
   "welcome message" : "Greetings!",
   "skills" : ["Javascript", "jQuery", "HTML5", "CSS3"],
   "bioPic": "images/fry.jpg"
