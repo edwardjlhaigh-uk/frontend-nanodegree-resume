@@ -23,13 +23,11 @@ var work = {
   "apex": {
   "Employer": "Apex M-T",
   "Title": "Testing and Training Team",
-  "Dates": "Sept 2014 - Present ",
-  "Location": "London" },
+  "Dates": "Sept 2014 - Present " },
   "nexus": {
   "Employer": "Nexus Open Systems",
   "Title": "Systems Technician",
-  "Dates": "Febuary 2014 - August 2014",
-  "Location": "Exeter" },
+  "Dates": "Febuary 2014 - August 2014" },
 };
 
 var education = {
@@ -54,8 +52,7 @@ var education = {
   "college": {
   "schoolName": "Exeter College",
   "schoolDegree": "Business Management",
-  "schoolDates": "2010 - 2013 ",
-  "schoolLocation": "Exeter" },
+  "schoolDates": "2010 - 2013 " },
 };
 
 var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
@@ -88,8 +85,6 @@ var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.apex.Title);
 $("#workExperience").append([formattedWorkTitle]);
 var formattedWorkDates = HTMLworkDates.replace("%data%", work.apex.Dates);
 $("#workExperience").append([formattedWorkDates]);
-var formattedLocation = HTMLworkLocation.replace("%data%", work.apex.Location);
-$("#workExperience").append([formattedLocation]);
 
 var formattedWorkExperience = HTMLworkEmployer.replace("%data%", work.nexus.Employer);
 $("#workExperience").append([formattedWorkExperience]);
@@ -97,8 +92,6 @@ var formattedWorkTitle = HTMLworkTitle.replace("%data%", work.nexus.Title);
 $("#workExperience").append([formattedWorkTitle]);
 var formattedWorkDates = HTMLworkDates.replace("%data%", work.nexus.Dates);
 $("#workExperience").append([formattedWorkDates]);
-var formattedLocation = HTMLworkLocation.replace("%data%", work.nexus.Location);
-$("#workExperience").append([formattedLocation]);
 
 var formattedSchoolName = HTMLschoolName.replace("%data%", education.college.schoolName);
 $("#education").append([formattedSchoolName]);
@@ -106,8 +99,6 @@ var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.college
 $("#education").append([formattedSchoolDegree]);
 var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.college.schoolDates);
 $("#education").append([formattedSchoolDates]);
-var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.college.schoolLocation);
-$("#education").append([formattedSchoolLocation]);
 
 var formattedSchoolName = HTMLonlineTitle.replace("%data%", education.javascriptBasics.onlineTitle);
 $("#education").append([formattedSchoolName]);
