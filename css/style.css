@@ -144,6 +144,8 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+  list-style-type: none;
+
 }
 
 .center-content {
