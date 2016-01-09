@@ -8,7 +8,7 @@ var bio = {
   "name" : "Edward Haigh",
   "role" : "Web Developer",
   "contacts" : {
-    "mobile": "07341 662673",
+    "mobile": 07341 662673,
     "email": "edward@starlinghaigh.com",
     "twitter": "#",
     "github": "edwardjlhaigh-uk",
