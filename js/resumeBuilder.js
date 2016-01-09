@@ -15,7 +15,7 @@ var bio = {
   "bioPic": "http://imgur.com/Z7MyUlv.jpg"
 };
 
-// Work Objects
+// Work Objects (JSON Checked)
 
 var work = {
   "apex": {
@@ -27,6 +27,17 @@ var work = {
   "Title": "Systems Technician",
   "Dates": "Febuary 2014 - August 2014" },
 };
+
+// Project Objects (JSON checked)
+
+var projects = {
+  "#": {
+    "projectTitle": "",
+    "projectDates": "",
+    "projectDescription": "",
+    "projectImage": ""
+  },
+}
 
 // Education Objects (JSON checked)
 
