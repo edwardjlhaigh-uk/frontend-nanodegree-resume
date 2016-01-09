@@ -18,5 +18,5 @@ var bio = {
   "bioPic": "images/fry.jpg"
 };
 
-var formattedMobile = HTMLmobile.replace("%data%", {mobile});
+var formattedMobile = HTMLmobile.replace("%data%", bio.mobile);
 $("#header").append([formattedMobile]);
