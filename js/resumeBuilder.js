@@ -23,10 +23,7 @@ var bio = {
 var formattedMobile = HTMLmobile.replace("%data%", bio.mobile);
 $("#header").append([formattedMobile]);
 
-var formattedBioPic = HTMLbiopic.replace("%data%", bio.biopic);
-$("#header").append([formattedBioPic]);
-
-var formattedGithub = HTMLgithub.replace("%data%", {bio.github});
+var formattedGithub = HTMLgithub.replace("%data%", {bio.contacts.[github]});
 $("#header").append([formattedGithub]);
 
 var formattedEmail = HTMLemail.replace("%data%", {bio.email});
@@ -40,3 +37,6 @@ $("#header").append([formattedLocation]);
 
 var formattedBlog = HTMLblog.relace("%data%", {bio.blog});
 $("#header").append([formattedBlog]);
+
+var formattedBioPic = HTMLbiopic.replace("%data%", bio.biopic);
+$("#header").append([formattedBioPic]);
