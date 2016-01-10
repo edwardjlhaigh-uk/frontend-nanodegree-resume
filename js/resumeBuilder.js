@@ -66,6 +66,10 @@ var education = {
   "schoolDates": "2010 - 2013 " }, */
 };
 
+if ( bio === skills ) {
+  $("#header").append(HTMLskillsStart)
+};
+
 // Heading and Contacts
 
 var formattedName = HTMLheaderName.replace("%data%", "Edward Haigh");
