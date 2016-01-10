@@ -66,7 +66,7 @@ var education = {
   "schoolDates": "2010 - 2013 " }, */
 };
 
-if ( bio === skills ) {
+if ( skills === bio ) {
   $("#header").append(HTMLskillsStart)
 };
 
