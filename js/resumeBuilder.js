@@ -17,7 +17,7 @@ var bio = {
 
 // Work Objects (JSON Checked)
 
-var work = {[
+var work = [{
   "apex": {
   "Employer": "Apex M-T",
   "Title": "Testing and Training Team",
@@ -26,7 +26,7 @@ var work = {[
   "Employer": "Nexus Open Systems",
   "Title": "Systems Technician",
   "Dates": "Febuary 2014 - August 2014" },
-]};
+}];
 
 console.log(work[0]);
 
