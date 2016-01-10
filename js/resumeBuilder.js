@@ -66,6 +66,15 @@ var education = {
   "schoolDates": "2010 - 2013 " }, */
 };
 
+// Heading and Contacts
+
+var formattedName = HTMLheaderName.replace("%data%", "Edward Haigh");
+$("#header").append([formattedName]);
+var formattedRole = HTMLheaderRole.replace("%data%", "Web Developer");
+$("#header").append([formattedRole]);
+var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
+$("#header").append([formattedWelcomeMsg]);
+
 if (bio.skills.length > 0 ) {
   
   $("#header").append(HTMLskillsStart);
@@ -78,14 +87,6 @@ if (bio.skills.length > 0 ) {
 
 };
 
-// Heading and Contacts
-
-var formattedName = HTMLheaderName.replace("%data%", "Edward Haigh");
-$("#header").append([formattedName]);
-var formattedRole = HTMLheaderRole.replace("%data%", "Web Developer");
-$("#header").append([formattedRole]);
-var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMsg);
-$("#header").append([formattedWelcomeMsg]);
 var formattedSkills = HTMLskills.replace("%data%", bio.skills);
 $("#header").append([formattedSkills]);
 var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
