@@ -46,24 +46,24 @@ var education = {
     "onlineTitle": "Javascript Basics",
     "onlineSchool": "Udacity",
     "onlineDates": "January 2016",
-    "onlineURL": "#"
+   // "onlineURL": "#"
   },
   "machineLearning": {
     "onlineTitle": "Machine Learning",
     "onlineSchool": "Stanfordx",
     "onlineDates": "January 2016 - April 2016",
-    "onlineURL": "https://www.coursera.org/learn/machine-learning"
+   // "onlineURL": "https://www.coursera.org/learn/machine-learning"
   },
   "introCompSci":{
     "onlineTitle": "Introduction to Computer Science and Programming using Python",
     "onlineSchool": "MITx",
     "onlineDates": "January 2016 - April 2016",
-    "onlineURL": "https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6"
+   // "onlineURL": "https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6"
   },
-  "college": {
+  /* "college": {
   "schoolName": "Exeter College",
   "schoolDegree": "Business Management",
-  "schoolDates": "2010 - 2013 " },
+  "schoolDates": "2010 - 2013 " }, */
 };
 
 // Heading and Contacts
@@ -109,12 +109,12 @@ $("#workExperience").append([formattedWorkDates]);
 
 // Exeter College
 
-var formattedSchoolName = HTMLschoolName.replace("%data%", education.college.schoolName);
+/*var formattedSchoolName = HTMLschoolName.replace("%data%", education.college.schoolName);
 $("#education").append([formattedSchoolName]);
 var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.college.schoolDegree);
 $("#education").append([formattedSchoolDegree]);
 var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.college.schoolDates);
-$("#education").append([formattedSchoolDates]);
+$("#education").append([formattedSchoolDates]);*/
 
 // Javascript Basics MOOC
 
@@ -124,8 +124,8 @@ var formattedSchoolDegree = HTMLonlineSchool.replace("%data%", education.javascr
 $("#education").append([formattedSchoolDegree]);
 var formattedSchoolDates = HTMLonlineDates.replace("%data%", education.javascriptBasics.onlineDates);
 $("#education").append([formattedSchoolDates]);
-var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.javascriptBasics.onlineURL);
-$("#education").append([formattedSchoolLocation]);
+// var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.javascriptBasics.onlineURL);
+// $("#education").append([formattedSchoolLocation]);
 
 // Machine Learning MOOC
 
@@ -135,8 +135,8 @@ var formattedSchoolDegree = HTMLonlineSchool.replace("%data%", education.machine
 $("#education").append([formattedSchoolDegree]);
 var formattedSchoolDates = HTMLonlineDates.replace("%data%", education.machineLearning.onlineDates);
 $("#education").append([formattedSchoolDates]);
-var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.machineLearning.onlineURL);
-$("#education").append([formattedSchoolLocation]);
+// var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.machineLearning.onlineURL);
+// $("#education").append([formattedSchoolLocation]);
 
 // Introduction to Comp Sci MOOC
 
@@ -146,5 +146,5 @@ var formattedSchoolDegree = HTMLonlineSchool.replace("%data%", education.introCo
 $("#education").append([formattedSchoolDegree]);
 var formattedSchoolDates = HTMLonlineDates.replace("%data%", education.introCompSci.onlineDates);
 $("#education").append([formattedSchoolDates]);
-var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.introCompSci.onlineURL);
-$("#education").append([formattedSchoolLocation]);
+// var formattedSchoolLocation = HTMLonlineURL.replace("%data%", education.introCompSci.onlineURL);
+// $("#education").append([formattedSchoolLocation]);
