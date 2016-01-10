@@ -70,11 +70,11 @@ if (bio.skills.length > 0 ) {
   
   $("#header").append(HTMLskillsStart);
   
-  var formattedSkill = HTMLskillStart.replace("%data", bio.skills[0]);
-  var formattedSkill = HTMLskillStart.replace("%data", bio.skills[1]);
-  var formattedSkill = HTMLskillStart.replace("%data", bio.skills[2]);
-  var formattedSkill = HTMLskillStart.replace("%data", bio.skills[3]);
-  var formattedSkill = HTMLskillStart.replace("%data", bio.skills[4]);
+  var formattedSkill = HTMLskillsStart.replace("%data", bio.skills[0]);
+  var formattedSkill = HTMLskillsStart.replace("%data", bio.skills[1]);
+  var formattedSkill = HTMLskillsStart.replace("%data", bio.skills[2]);
+  var formattedSkill = HTMLskillsStart.replace("%data", bio.skills[3]);
+  var formattedSkill = HTMLskillsStart.replace("%data", bio.skills[4]);
 
 };
 
